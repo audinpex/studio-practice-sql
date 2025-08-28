@@ -18,4 +18,5 @@ def main():
     for row in response.data:
         print(row)
 
-main()
+if __name__ == "__main__":
+    main()
